@@ -25,7 +25,7 @@
       path: /opt/devops_1
       state: directory
 
-       - name: Create Directory
+  - name: Create Directory
     file:
       path: /opt/devops_2
       state: directory

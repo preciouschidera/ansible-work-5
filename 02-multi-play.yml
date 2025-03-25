@@ -1,0 +1,52 @@
+---
+
+- name: update n1 servers
+  hosts: n1
+  
+  tasks:
+  - name: Create Directory
+    file:
+      path: /opt/devops
+      state: directory
+
+    
+  - name: Create Directory
+    file:
+      path: /opt/devops_1
+      state: directory
+      
+
+- name: update n2 servers
+  hosts: n2
+  
+  tasks:
+  - name: Create Directory
+    file:
+      path: /opt/devops_1
+      state: directory
+
+       - name: Create Directory
+    file:
+      path: /opt/devops_2
+      state: directory
+
+  -  name: update group1 servers
+  hosts: g1
+  
+  tasks:
+  - name: Create Directory
+    file:
+      path: /opt/devops_group1
+      state: directory 
+
+  - name: Create Directory
+    file:
+      path: /opt/devops_group2
+      state: directory
+
+
+
+
+  
+
+...

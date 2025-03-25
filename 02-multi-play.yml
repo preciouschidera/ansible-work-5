@@ -42,7 +42,7 @@
   - name: Create Directory
     file:
       path: /opt/devops_group2
-      state: directory
+      state: directory 
 
 
 

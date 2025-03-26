@@ -43,10 +43,6 @@
     file:
       path: /opt/devops_group2
       state: directory 
-
-
-
-
-  
-
+    
+    
 ...

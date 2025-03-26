@@ -25,11 +25,7 @@
       path: /home/ec2-user/new_dir1
       state: directory
 
-<<<<<<< HEAD
   - name: Create Directory
-=======
-   - name: Create Directory
->>>>>>> 64b9fff81abfe93bf3e9f691270382ba5af0fa6b
     file:
       path: /home/ec2-user/new_dir2
       state: directory
@@ -47,4 +43,5 @@
     file:
       path: /home/ec2-user/new_dir_group2
       state: directory
+    
 ...

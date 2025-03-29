@@ -12,7 +12,7 @@
     
   -  name: Host code  
      git:
-      repo: https://github.com/preciouschidera/ansible-work-5.git
+      repo: https://github.com/CeeyIT-Solutions/food3.git
       dest: /var/www/html
             
 ...

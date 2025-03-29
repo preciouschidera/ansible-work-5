@@ -13,6 +13,6 @@
   -  name: Host code  
      git:
       repo: https://github.com/preciouschidera/ansible-work-5.git
-      dests: /var/www/html
+      dest: /var/www/html
             
 ...

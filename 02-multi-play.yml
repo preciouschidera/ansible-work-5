@@ -29,6 +29,7 @@
     file:
       path: /home/ec2-user/new_dir2
       state: directory
+      
 
   -  name: update group1 servers
   hosts: g1
